@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: myapp-service
   namespace: demo
-
 spec:
   selector:
     app: myapp
