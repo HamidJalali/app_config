@@ -8,9 +8,10 @@ spec:
   source:
     repoURL: https://github.com/HamidJalali/app_config.git
     targetRevision: HEAD
+    path: '.'
   destination: 
     server: https://kubernetes.default.svc
-    namespace: myapp
+    namespace: demo
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
